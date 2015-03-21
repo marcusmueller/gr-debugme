@@ -1,0 +1,25 @@
+# Created by https://www.gitignore.io, slimmed down manually
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+# Unit test / coverage reports
+.cache
+
+### C++ ###
+# Precompiled Headers
+*.gch
+*.pch
+
+
+### Vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
