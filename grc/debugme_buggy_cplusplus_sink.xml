@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<block>
+  <name>buggy_cplusplus_sink</name>
+  <key>debugme_buggy_cplusplus_sink</key>
+  <category>debugme</category>
+  <import>import debugme</import>
+  <make>debugme.buggy_cplusplus_sink()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+</block>

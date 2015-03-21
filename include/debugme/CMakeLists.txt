@@ -22,5 +22,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/debugme
+    buggy_cplusplus_sink.h DESTINATION include/debugme
 )

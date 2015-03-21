@@ -8,6 +8,9 @@
 %include "debugme_swig_doc.i"
 
 %{
+#include "debugme/buggy_cplusplus_sink.h"
 %}
 
 
+%include "debugme/buggy_cplusplus_sink.h"
+GR_SWIG_BLOCK_MAGIC2(debugme, buggy_cplusplus_sink);

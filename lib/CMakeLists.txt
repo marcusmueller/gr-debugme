@@ -26,6 +26,7 @@ include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 
 list(APPEND debugme_sources
+    buggy_cplusplus_sink_impl.cc
 )
 
 set(debugme_sources "${debugme_sources}" PARENT_SCOPE)
